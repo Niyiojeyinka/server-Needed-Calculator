@@ -1,0 +1,25 @@
+{
+  "name": "server_calc",
+  "version": "1.0.0",
+  "description": "<br>  My Modularized NodeJS Application starter kit for Restfull API <br>",
+  "main": "app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^12.0.4",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "jest": "^27.4.7",
+    "supertest": "^6.2.1"
+  }
+}
